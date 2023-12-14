@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="/dist/output.css" rel="stylesheet">
+  <title>Tailwind</title>
+</head>
+
+<body class="bg-green-900 overflow-auto">
+
+  <header class="bg-emerald-950 flex justify-center py-6 flex-col items-center md:max-w-full">
+    <h1 class="text-3xl text-lime-300 font-bold">
+      Welcome!
+    </h1>
+    <nav class="xl:text-xl text-lime-100 font-medium pt-10 px-8">
+      <ul class="flex gap-8 items-end flex-wrap justify-center">
+        <li><a class="hover:text-lime-300 transition duration-300 cursor-pointer" href="#">Home</a></li>
+        <li><a class="hover:text-lime-300 transition duration-300 cursor-pointer" href="#">Products</a></li>
+        <li><a class="hover:text-lime-300 transition duration-300 cursor-pointer" href="#">Gallery</a></li>
+        <li><a class="hover:text-lime-300 transition duration-300 cursor-pointer" href="#">Features</a></li>
+        <li><a class="hover:text-lime-300 transition duration-300 cursor-pointer" href="#">Contacts</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main class="max-w-full mb-40">
+    <section class="xl:text-xl text-lime-100 font-medium pt-10 px-10  flex ">
+      <div class="lg:flex flex flex-col w-full">
+        <h2 class="text-2xl text-lime-300 font-bold py-5">Lorem ipsum</h2>
+        <img class="max-w-sm flex justify-end" src="src/image/science.jpg" alt="science">
+        <p class="md:text-xl max-w-xl py-3 mb-0 ">Lorem `ipsum dolor, sit
+          amet consectetur adipisicing elit. Quas maxime quisquam, minima optio, consectetur ullam
+          repudiandae facere illo iste soluta pariatur! Incidunt numquam sint ex voluptas nihil eligendi commodi facere.
+        </p>
+
+      </div>
+    </section>
+    <section class="max-w-full xl:text-xl text-lime-100 font-medium mt-36 px-10 flex justify-end">
+      <div class="lg:flex flex flex-col ">
+        <img class="max-w-md flex items-end justify-end" src="src/image/science.jpg" alt="science">
+        <h2 class="text-2xl text-lime-300 font-bold py-5 flex justify-end">Lorem ipsum</h2>
+        <p class=" md:text-xl max-w-md py-3 mb-0">Lorem `ipsum dolor, sit
+          amet consectetur adipisicing elit. Quas maxime quisquam, minima optio, consectetur ullam
+          repudiandae facere illo iste soluta pariatur! Incidunt numquam sint ex voluptas nihil eligendi commodi facere.
+        </p>
+      </div>
+    </section>
+    <section class="max-w-full xl:text-xl text-lime-100 font-medium mt-36 px-10 flex justify-end">
+      <div class="lg:flex flex flex-col ">
+        <h2 class="text-2xl text-lime-300 font-bold py-5 flex justify-end">Lorem ipsum</h2>
+        <img class="max-w-md flex items-end justify-end" src="src/image/science.jpg" alt="science">
+        <p class=" md:text-xl max-w-md py-3 mb-0">Lorem `ipsum dolor, sit
+          amet consectetur adipisicing elit. Quas maxime quisquam, minima optio, consectetur ullam
+          repudiandae facere illo iste soluta pariatur! Incidunt numquam sint ex voluptas nihil eligendi commodi facere.
+        </p>
+      </div>
+    </section>
+  </main>
+  <footer class="bg-emerald-950 py-6 fixed bottom-0 w-full mt-40">
+    <h5 class="flex justify-center text-sm text-lime-100 font-bold">&copy; Oleksandr Khutorianskyi</h5>
+  </footer>
+</body>
+
+</html>
